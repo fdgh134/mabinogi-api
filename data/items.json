@@ -225,7 +225,7 @@
     "id": "sap-02",
     "name": "튼튼 버섯 진액",
     "category": "가공품",
-    "subCategory": "재료",
+    "subCategory": "약품재료",
     "producedPerTry": 5.0,
     "processingTime": 300.0,
     "price": null,
