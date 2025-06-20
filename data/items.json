@@ -529,15 +529,15 @@
       "ingredients": [
         {
           "itemId": "metal-04",
-          "quantity": null,
+          "quantity": 5,
           "source": {
             "type": "가공",
             "methodOrFrom": "from:metal-04"
           }
         },
         {
-          "itemId": "ore-05",
-          "quantity": null,
+          "itemId": "ore-06",
+          "quantity": 20,
           "source": {
             "type": "채집",
             "methodOrFrom": "method:구름 황야 전리품"
@@ -545,7 +545,7 @@
         },
         {
           "itemId": "ore-02",
-          "quantity": null,
+          "quantity": 16,
           "source": {
             "type": "채집",
             "methodOrFrom": "method:석탄 광맥 채집"
