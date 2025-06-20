@@ -261,8 +261,8 @@
   {
     "id": "silk-02",
     "name": "최상급 실크",
-    "category": "nan",
-    "subCategory": "nan",
+    "category": "가공품",
+    "subCategory": "옷감",
     "producedPerTry": 2.0,
     "processingTime": 21600.0,
     "price": null,
