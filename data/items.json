@@ -124,6 +124,43 @@
     }
   },
   {
+    "id": "cloth-02",
+    "name": "최상급 옷감",
+    "category": "가공품",
+    "subCategory": "옷감",
+    "producedPerTry": 3.0,
+    "processingTime": 18000.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "cloth-01+",
+          "quantity": 5,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:cloth-01+"
+          }
+        },
+        {
+          "itemId": "wool-02",
+          "quantity": 20,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method: 먹구름 양 채집"
+          }
+        },
+        {
+          "itemId": "wool-00",
+          "quantity": 16,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:양털 채집"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "wool-00",
     "name": "양털",
     "category": "채집",
@@ -150,6 +187,18 @@
   {
     "id": "wool-01+",
     "name": "상급 양털+",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "wool-02",
+    "name": "최상급 양털",
     "category": "채집",
     "subCategory": "재료",
     "producedPerTry": null,
@@ -210,6 +259,43 @@
     }
   },
   {
+    "id": "silk-02",
+    "name": "최상급 실크",
+    "category": "nan",
+    "subCategory": "nan",
+    "producedPerTry": 2.0,
+    "processingTime": 21600.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "silk-01",
+          "quantity": 4,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:silk-01"
+          }
+        },
+        {
+          "itemId": "web-01",
+          "quantity": 20,
+          "source": {
+            "type": "채집, 상점구매",
+            "methodOrFrom": "method:길모어, 구름 황야 전리품"
+          }
+        },
+        {
+          "itemId": "sap-02",
+          "quantity": 16,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:sap-02"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "web-00",
     "name": "거미줄",
     "category": "채집",
@@ -222,10 +308,22 @@
     }
   },
   {
+    "id": "web-01",
+    "name": "최상급 거미줄",
+    "category": "채집, 상점",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
     "id": "sap-02",
     "name": "튼튼 버섯 진액",
     "category": "가공품",
-    "subCategory": "약품재료",
+    "subCategory": "재료",
     "producedPerTry": 5.0,
     "processingTime": 300.0,
     "price": null,
@@ -420,6 +518,43 @@
     }
   },
   {
+    "id": "metal-05",
+    "name": "은합금괴",
+    "category": "가공품",
+    "subCategory": "금속",
+    "producedPerTry": 3.0,
+    "processingTime": 18000.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "metal-04",
+          "quantity": null,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:metal-04"
+          }
+        },
+        {
+          "itemId": "ore-05",
+          "quantity": null,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:구름 황야 전리품"
+          }
+        },
+        {
+          "itemId": "ore-02",
+          "quantity": null,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:석탄 광맥 채집"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "ore-00",
     "name": "광석",
     "category": "채집",
@@ -470,6 +605,18 @@
   {
     "id": "ore-04",
     "name": "백동 광석",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "ore-05",
+    "name": "은 광석",
     "category": "채집",
     "subCategory": "재료",
     "producedPerTry": null,
@@ -604,6 +751,43 @@
     }
   },
   {
+    "id": "leather-02",
+    "name": "최상급 가죽",
+    "category": "가공품",
+    "subCategory": "가죽",
+    "producedPerTry": 3.0,
+    "processingTime": 18000.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "leather-01+",
+          "quantity": 5,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:leather-01+"
+          }
+        },
+        {
+          "itemId": "leather-02",
+          "quantity": 20,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:사냥"
+          }
+        },
+        {
+          "itemId": "tannin",
+          "quantity": 16,
+          "source": {
+            "type": "분해",
+            "methodOrFrom": "method:나뭇가지 분해"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "raw-00",
     "name": "생가죽",
     "category": "채집",
@@ -630,6 +814,18 @@
   {
     "id": "raw-01+",
     "name": "상급 생가죽+",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "raw-02",
+    "name": "최상급 생가죽",
     "category": "채집",
     "subCategory": "재료",
     "producedPerTry": null,
@@ -825,6 +1021,43 @@
     }
   },
   {
+    "id": "wood-03",
+    "name": "최상급 목재",
+    "category": "가공품",
+    "subCategory": "목재",
+    "producedPerTry": 3.0,
+    "processingTime": 18000.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "wood-01+",
+          "quantity": 5,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:wood-01+"
+          }
+        },
+        {
+          "itemId": "tree-03",
+          "quantity": 20,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:어스름 나무 베기"
+          }
+        },
+        {
+          "itemId": "sap-00",
+          "quantity": 16,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:나무 베기"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "tree-00",
     "name": "통나무",
     "category": "채집",
@@ -863,6 +1096,18 @@
   {
     "id": "tree-02",
     "name": "부드러운 통나무",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "tree-03",
+    "name": "최상급 통나무",
     "category": "채집",
     "subCategory": "재료",
     "producedPerTry": null,
@@ -972,6 +1217,35 @@
     }
   },
   {
+    "id": "sap-05",
+    "name": "증폭 버섯 진액",
+    "category": "가공품",
+    "subCategory": "약품재료",
+    "producedPerTry": 5.0,
+    "processingTime": 5400.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "mushroom-04+",
+          "quantity": 10,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:mushroom-04+"
+          }
+        },
+        {
+          "itemId": "sap-03",
+          "quantity": 10,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:sap-03"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "mushroom-01+",
     "name": "튼튼 버섯 포자",
     "category": "가공품",
@@ -1004,7 +1278,7 @@
     "id": "powder-00",
     "name": "튼튼 버섯 가루",
     "category": "가공품",
-    "subCategory": "약품재료",
+    "subCategory": "재료",
     "producedPerTry": 5.0,
     "processingTime": 150.0,
     "price": null,
@@ -1145,10 +1419,51 @@
     }
   },
   {
+    "id": "mushroom-04",
+    "name": "증폭 버섯 포자",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "mushroom-04+",
+    "name": "증폭 버섯 포자",
+    "category": "가공품",
+    "subCategory": "약품재료",
+    "producedPerTry": 15.0,
+    "processingTime": 1800.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "mushroom-003",
+          "quantity": 30,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:증폭 버섯 채집"
+          }
+        },
+        {
+          "itemId": "paper",
+          "quantity": 3,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:아이라, 발터 구매"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "crystal-00",
     "name": "광휘의 결정(유령 반딧불이)",
     "category": "가공품",
-    "subCategory": "약품재료",
+    "subCategory": "재료",
     "producedPerTry": 3.0,
     "processingTime": 600.0,
     "price": null,
@@ -1185,7 +1500,7 @@
     "id": "crystal-01",
     "name": "불꽃의 결정(석양나비)",
     "category": "가공품",
-    "subCategory": "약품재료",
+    "subCategory": "재료",
     "producedPerTry": 3.0,
     "processingTime": 600.0,
     "price": null,
@@ -1222,7 +1537,7 @@
     "id": "crystal-02",
     "name": "얼음의 결정(흰얼음풍뎅이)",
     "category": "가공품",
-    "subCategory": "약품재료",
+    "subCategory": "재료",
     "producedPerTry": 3.0,
     "processingTime": 600.0,
     "price": null,
@@ -1234,6 +1549,43 @@
           "source": {
             "type": "채집",
             "methodOrFrom": "method:차가운 빛 무리 채집"
+          }
+        },
+        {
+          "itemId": "hub-00",
+          "quantity": 10,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:마나 허브 채집"
+          }
+        },
+        {
+          "itemId": "sand",
+          "quantity": 3,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:호미질"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "crystal-03",
+    "name": "전기의 결정(낙엽나방)",
+    "category": "가공품",
+    "subCategory": "재료",
+    "producedPerTry": 3.0,
+    "processingTime": 600.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "bug-03",
+          "quantity": 3,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:삭막한 곤충 무리 채집"
           }
         },
         {
@@ -1308,6 +1660,27 @@
           "source": {
             "type": "채집",
             "methodOrFrom": "method:약초 채집"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "powder-03",
+    "name": "생채기꽃 가루",
+    "category": "가공품",
+    "subCategory": "약품재료",
+    "producedPerTry": 5.0,
+    "processingTime": 1500.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "flower-01",
+          "quantity": 20,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:생채기꽃 채집"
           }
         }
       ]
@@ -1473,6 +1846,18 @@
     }
   },
   {
+    "id": "mushroom-004",
+    "name": "증폭 버섯",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
     "id": "bug-00",
     "name": "유령 반딧불이",
     "category": "채집",
@@ -1499,6 +1884,18 @@
   {
     "id": "bug-02",
     "name": "흰얼음풍뎅이",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "bug-03",
+    "name": "낙엽나방",
     "category": "채집",
     "subCategory": "재료",
     "producedPerTry": null,
@@ -1595,6 +1992,18 @@
   {
     "id": "flower-00",
     "name": "숨숨꽃",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "flower-01",
+    "name": "생채기꽃",
     "category": "채집",
     "subCategory": "재료",
     "producedPerTry": null,
@@ -2149,6 +2558,137 @@
     "producedPerTry": null,
     "processingTime": null,
     "price": 10000.0,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "ingredients-34",
+    "name": "물에 불린 콩",
+    "category": "가공품",
+    "subCategory": "식재료",
+    "producedPerTry": 5.0,
+    "processingTime": 1200.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-37",
+          "quantity": 30,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:콩 채집"
+          }
+        },
+        {
+          "itemId": "water",
+          "quantity": 5,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:일상 채집"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ingredients-35",
+    "name": "두부",
+    "category": "가공품",
+    "subCategory": "식재료",
+    "producedPerTry": 3.0,
+    "processingTime": 3300.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-34",
+          "quantity": 3,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-34"
+          }
+        },
+        {
+          "itemId": "water",
+          "quantity": 3,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:일상 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-09",
+          "quantity": 2,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        },
+        {
+          "itemId": "cloth-00",
+          "quantity": 3,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:cloth-00"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ingredients-36",
+    "name": "두유",
+    "category": "가공품",
+    "subCategory": "식재료",
+    "producedPerTry": 3.0,
+    "processingTime": 3300.0,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-34",
+          "quantity": 3,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-34"
+          }
+        },
+        {
+          "itemId": "water",
+          "quantity": 3,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:일상 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-09",
+          "quantity": 1,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        },
+        {
+          "itemId": "ingredients-06",
+          "quantity": 1,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ingredients-37",
+    "name": "콩",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
     "production": {
       "ingredients": []
     }
