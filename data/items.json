@@ -615,7 +615,7 @@
     }
   },
   {
-    "id": "ore-05",
+    "id": "ore-06",
     "name": "은 광석",
     "category": "채집",
     "subCategory": "재료",
@@ -2694,6 +2694,66 @@
     }
   },
   {
+    "id": "ingredients-38",
+    "name": "담백한 고기",
+    "category": "채집, 상점",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "ingredients-39",
+    "name": "파스닙",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "ingredients-40",
+    "name": "농어",
+    "category": "채집",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "ingredients-41",
+    "name": "무",
+    "category": "상점",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": 10000.0,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
+    "id": "ingredients-42",
+    "name": "고춧가루",
+    "category": "상점",
+    "subCategory": "재료",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": 3000.0,
+    "production": {
+      "ingredients": []
+    }
+  },
+  {
     "id": "bottle",
     "name": "빈 병",
     "category": "상점",
@@ -2897,7 +2957,7 @@
           "quantity": 2,
           "source": {
             "type": "상점구매",
-            "methodOrFrom": "method:글리니스"
+            "methodOrFrom": "method:글리니스, 제니퍼"
           }
         },
         {
@@ -3032,7 +3092,7 @@
           "quantity": 2,
           "source": {
             "type": "상점구매",
-            "methodOrFrom": "method:글리니스"
+            "methodOrFrom": "method:글리니스, 제니퍼"
           }
         },
         {
@@ -3262,7 +3322,7 @@
           "quantity": 7,
           "source": {
             "type": "상점구매",
-            "methodOrFrom": "method:글리니스"
+            "methodOrFrom": "method:글리니스, 제니퍼"
           }
         },
         {
@@ -3670,7 +3730,7 @@
           "quantity": 4,
           "source": {
             "type": "상점구매",
-            "methodOrFrom": "method:글리니스"
+            "methodOrFrom": "method:글리니스, 제니퍼"
           }
         }
       ]
@@ -3830,6 +3890,385 @@
           "source": {
             "type": "채집",
             "methodOrFrom": "method:일상 채집"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-26",
+    "name": "사와르마",
+    "category": "가공품",
+    "subCategory": "음식",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-38",
+          "quantity": 10,
+          "source": {
+            "type": "채집, 상점구매",
+            "methodOrFrom": "method:제니퍼, 구름 황야"
+          }
+        },
+        {
+          "itemId": "ingredients-37",
+          "quantity": 12,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:콩 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-01",
+          "quantity": 3,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-01"
+          }
+        },
+        {
+          "itemId": "ingredients-13",
+          "quantity": 5,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        },
+        {
+          "itemId": "ingredients-17",
+          "quantity": 2,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-27",
+    "name": "미트 파르미자나",
+    "category": "가공품",
+    "subCategory": "음식",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-38",
+          "quantity": 10,
+          "source": {
+            "type": "채집, 상점구매",
+            "methodOrFrom": "method:제니퍼, 구름 황야"
+          }
+        },
+        {
+          "itemId": "ingredients-02",
+          "quantity": 3,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-02"
+          }
+        },
+        {
+          "itemId": "ingredients-28",
+          "quantity": 1,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 코너"
+          }
+        },
+        {
+          "itemId": "ingredients-18",
+          "quantity": 1,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 코너"
+          }
+        },
+        {
+          "itemId": "ingredients-09",
+          "quantity": 1,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-28",
+    "name": "두부 스테이크",
+    "category": "가공품",
+    "subCategory": "음식",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-35",
+          "quantity": 5,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-35"
+          }
+        },
+        {
+          "itemId": "ingredients-39",
+          "quantity": 6,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:파스닙 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-14",
+          "quantity": 4,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 제니퍼"
+          }
+        },
+        {
+          "itemId": "ingredients-18",
+          "quantity": 3,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 코너"
+          }
+        },
+        {
+          "itemId": "ingredients-06",
+          "quantity": 2,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-29",
+    "name": "두부 국수",
+    "category": "가공품",
+    "subCategory": "음식",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-35",
+          "quantity": 5,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-35"
+          }
+        },
+        {
+          "itemId": "water",
+          "quantity": 5,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:일상 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-19",
+          "quantity": 5,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:양파 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-41",
+          "quantity": 1,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:제니퍼"
+          }
+        },
+        {
+          "itemId": "ingredients-09",
+          "quantity": 3,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-30",
+    "name": "두유 빙수",
+    "category": "가공품",
+    "subCategory": "음식",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-36",
+          "quantity": 4,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-36"
+          }
+        },
+        {
+          "itemId": "ingredients-22",
+          "quantity": 10,
+          "source": {
+            "type": "채집, 상점구매",
+            "methodOrFrom": "method:코너, 얼음 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-17",
+          "quantity": 2,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스"
+          }
+        },
+        {
+          "itemId": "ingredients-10",
+          "quantity": 6,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        },
+        {
+          "itemId": "ingredients-12",
+          "quantity": 3,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:허브 채집"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-31",
+    "name": "두유 파스닙 케이크",
+    "category": "가공품",
+    "subCategory": "음식",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-36",
+          "quantity": 4,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-36"
+          }
+        },
+        {
+          "itemId": "ingredients-39",
+          "quantity": 6,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:파스닙 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-04",
+          "quantity": 2,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-04"
+          }
+        },
+        {
+          "itemId": "ingredients-01",
+          "quantity": 4,
+          "source": {
+            "type": "가공",
+            "methodOrFrom": "from:ingredients-01"
+          }
+        },
+        {
+          "itemId": "ingredients-10",
+          "quantity": 9,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 케이틴"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "food-32",
+    "name": "농어 매운탕",
+    "category": "가공품",
+    "subCategory": "음식",
+    "producedPerTry": null,
+    "processingTime": null,
+    "price": null,
+    "production": {
+      "ingredients": [
+        {
+          "itemId": "ingredients-40",
+          "quantity": 6,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:낚시"
+          }
+        },
+        {
+          "itemId": "ingredients-41",
+          "quantity": 4,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:제니퍼"
+          }
+        },
+        {
+          "itemId": "ingredients-19",
+          "quantity": 6,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:양파 채집"
+          }
+        },
+        {
+          "itemId": "water",
+          "quantity": 5,
+          "source": {
+            "type": "채집",
+            "methodOrFrom": "method:일상 채집"
+          }
+        },
+        {
+          "itemId": "ingredients-42",
+          "quantity": 4,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:제니퍼"
+          }
+        },
+        {
+          "itemId": "ingredients-18",
+          "quantity": 2,
+          "source": {
+            "type": "상점구매",
+            "methodOrFrom": "method:글리니스, 코너"
           }
         }
       ]
